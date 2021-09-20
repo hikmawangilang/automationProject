@@ -7,9 +7,9 @@ const webdriver = require('selenium-webdriver');
     Before(async function(){
         return driver.manage().window().maximize();
     });
-    // After(function(){
-    //     return driver.quit();
-    // });
+    After(function(){
+        return driver.quit();
+    });
 
 // defineSupportCode(function ({Before, After, registerHandler}) {
 
