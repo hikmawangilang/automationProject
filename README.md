@@ -1,5 +1,3 @@
-# automationProject
-
 Make sure node.js is installed properly
 
 - Add Cucumber as a development dependency:
