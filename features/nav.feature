@@ -1,18 +1,10 @@
-Feature: Example feature
-  As a user of Cucumber.js
-  I want to have documentation on Cucumber
-  So that I can concentrate on building awesome applications
+@testing
+Feature: testing feature
 
-  @tag1
-  Scenario: Reading documentation
-    Given Open FFMS App
-    And Login via Google
-    When I click on CLI
-    # Then I should see "Running specific features"
-
-#   @tag2
-#   Scenario: Reading documentation1
-#     Given I am on the Cucumber.js GitHub repository
-#     And I closed the Join GitHub today Dialogue
-#     When I click on "CLI"
-#     Then I should see "Running specific features"
+@tc1
+Scenario: testing scenario
+Given user on home page
+And user want to login with Google
+When user fill username and password
+And user click button login
+Then verify user successfully login
